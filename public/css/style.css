@@ -1,0 +1,94 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  margin-top: 10%;
+}
+.navbar {
+  background-color: #36846b;
+  color: white;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #36846b;
+  color: white;
+}
+
+.contact {
+  padding: 10%;
+  height: 600px;
+}
+.col-md-3 {
+  background: #d68438;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info {
+  margin-top: 10%;
+}
+
+.col-md-9 {
+  background: #f8f8f6;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label {
+  font-weight: 600;
+}
+
+.form-group {
+  margin-top: 5%;
+}
+
+.contact-form button:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  background-color: #36846b;
+}
+.btn:hover {
+  color: #d68438;
+}
+
+#sucMessage {
+  color: #36846b;
+}
+
+.fa-envelope {
+  font-size: 100px;
+  color: rgb(252, 247, 247);
+}
+
+.center {
+  margin: auto;
+}
+
+.deleteButton {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  background-color: #c62d1f;
+}
+.deleteButton:hover {
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  color: #fff;
+}
